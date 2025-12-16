@@ -12,16 +12,6 @@ public class MyFile {
 
     public static void main(String[] args) {
         
-        /*Things to do
-        -In File need a method that converts date from the taken String to Date(the class)
-        -File extesnion takes the last 3 indexes of the name string extension can be 4 or 2 indexes long (Reader Line:143)
-        -When creating new file you can make extension anything you want, we should at least put a length constrantions (secondChoice; case 2)
-        -Directorys size should be sum of the files and directories inside storage, this is not implemented
-        -And the things in secondChoice method(Line 61):
-        5-) Search a file by name from current directory
-        6-) Search a file by extension from current directory
-        7-) Search a file or directory by name from current directory
-        */
         try{
             Scanner scn=new Scanner(System.in);
             int scnInt;
